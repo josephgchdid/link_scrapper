@@ -11,7 +11,7 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 const path = require('path');
 const { exit } = require('process');
-let url = "https://www.sivasakti.com";
+let url;
 let mainSection = '';
 let linkSubString
 let links = [];
